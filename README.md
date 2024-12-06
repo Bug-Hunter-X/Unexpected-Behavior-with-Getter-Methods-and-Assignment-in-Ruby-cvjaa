@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon Ruby bug related to the interaction between getter methods and direct assignment.  The `bug.rb` file shows the problematic code, where assigning a value to a getter method does not modify the underlying instance variable.  The `bugSolution.rb` file provides a corrected version using a setter method.
